@@ -7,7 +7,7 @@
 class Utils
 {
 
-    function jsonDecode($json) 
+    public static function jsonDecode($json) 
     {
         return json_decode($json, true);
     }
